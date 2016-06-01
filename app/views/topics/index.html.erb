@@ -1,1 +1,6 @@
-Hello
+<h1>Topics</h1>
+<ul>
+  <% @topics.each do |topic| %>
+    <li><%= link_to topic, topic_path(topic) %></li>
+  <% end %>
+</ul>
