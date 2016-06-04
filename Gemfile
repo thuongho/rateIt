@@ -24,6 +24,9 @@ gem 'ancestry'
 # quickly build admin interface for add/removing admin records
 gem 'rails_admin'
 gem 'foundation-rails'
+gem 'react-rails'
+gem 'flux-rails-assets'
+gem 'lodash-rails'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
