@@ -6,6 +6,6 @@ class TopicsController < ApplicationController
 
   def show
     @topic = Topic.find(params[:id])
-    @comment = @topic.comments
+    @comments = @topic.comments
   end
 end
