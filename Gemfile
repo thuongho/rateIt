@@ -25,6 +25,8 @@ gem 'ancestry'
 gem 'rails_admin'
 gem 'foundation-rails'
 gem 'react-rails'
+gem 'flux-rails-assets'
+gem 'lodash-rails'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
